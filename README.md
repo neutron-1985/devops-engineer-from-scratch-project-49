@@ -14,5 +14,8 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/neutron-1985/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/neutron-1985/devops-engineer-from-scratch-project-49/actions)
 
-### Demo "Brain Games"
+### Demo "Brain Even"
 [![asciicast](https://asciinema.org/a/1naQqWGw6YK75e9J.svg)](https://asciinema.org/a/1naQqWGw6YK75e9J)
+
+### Demo "Brain Calc"
+[![asciicast](https://asciinema.org/a/yS0PizNdyCeeXBKX.svg)](https://asciinema.org/a/yS0PizNdyCeeXBKX)
