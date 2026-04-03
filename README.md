@@ -1,4 +1,4 @@
-### Braain Games
+### Brain Games
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=neutron-1985_devops-engineer-from-scratch-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=neutron-1985_devops-engineer-from-scratch-project-49)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=neutron-1985_devops-engineer-from-scratch-project-49&metric=bugs)](https://sonarcloud.io/summary/new_code?id=neutron-1985_devops-engineer-from-scratch-project-49)
@@ -13,3 +13,6 @@
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/neutron-1985/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/neutron-1985/devops-engineer-from-scratch-project-49/actions)
+
+### Demo "Brain Games"
+[![asciicast](https://asciinema.org/a/1naQqWGw6YK75e9J.svg)](https://asciinema.org/a/1naQqWGw6YK75e9J)
