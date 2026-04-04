@@ -19,3 +19,6 @@
 
 ### Demo "Brain Calc"
 [![asciicast](https://asciinema.org/a/yS0PizNdyCeeXBKX.svg)](https://asciinema.org/a/yS0PizNdyCeeXBKX)
+
+### Demo "Brain gsd (Greatest Common Divisor)"
+[![asciicast](https://asciinema.org/a/lCoNb5yY9SIQojg5.svg)](https://asciinema.org/a/lCoNb5yY9SIQojg5)
