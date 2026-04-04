@@ -1,11 +1,13 @@
 from brain_games.scripts.brain_calc import main as calc_main
 from brain_games.scripts.brain_even import main as even_main
 from brain_games.scripts.brain_gcd import main as gcd_main
+from brain_games.scripts.brain_progression import main as progression_main
 
 GAMES = {
     1: ("even", even_main),
     2: ("calc", calc_main),
     3: ("gcd", gcd_main),
+    4: ("progression", progression_main),
 }
 
 
