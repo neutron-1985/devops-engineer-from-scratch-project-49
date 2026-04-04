@@ -8,6 +8,7 @@ def find_gcd(a, b):
         a, b = b, a % b
     return a
 
+
 def generate_gcd_round():
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)
