@@ -14,6 +14,46 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/neutron-1985/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/neutron-1985/devops-engineer-from-scratch-project-49/actions)
 
+## Description
+
+"Brain Games" is a set of five console math games.
+
+## Requirements
+
+- Python 3.13+
+- uv
+
+## Installation
+
+```make install```
+
+## Install project dependencies:
+
+```make package-install```
+
+## Run
+
+Launch the games using the following commands:
+
+- `brain-games`  
+  Starts the welcome screen and greets the player.
+
+- `brain-even`  
+  Answer whether the given number is even.
+
+- `brain-calc`  
+  Solve random arithmetic expressions.
+
+- `brain-gcd`  
+  Find the greatest common divisor of two numbers.
+
+- `brain-progression`  
+  Find the missing number in the progression.
+
+- `brain-prime`  
+  Answer whether the given number is prime.
+
+
 ### Demo "Brain Even"
 [![asciicast](https://asciinema.org/a/1naQqWGw6YK75e9J.svg)](https://asciinema.org/a/1naQqWGw6YK75e9J)
 
