@@ -14,16 +14,11 @@ def get_user_name():
     return user_name
 
 
-def generate_rounds(generate_round):
-    for _ in range(ROUNDS_COUNT):
-        yield generate_round()
-
-
 def start_game(task_description, generate_round):
     user_name = get_user_name()
     print(task_description)
 
-    rounds = generate_rounds(generate_round)
+    rounds = (generate_round() for _ in range(ROUNDS_COUNT))
 
     for question, correct_answer in rounds:
         print(f"Question: {question}")
