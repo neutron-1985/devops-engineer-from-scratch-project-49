@@ -27,6 +27,10 @@
 
 ```make install```
 
+## Build the project package:
+
+```make build```
+
 ## Install project dependencies:
 
 ```make package-install```
