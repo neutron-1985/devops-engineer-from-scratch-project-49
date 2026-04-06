@@ -1,9 +1,9 @@
+from brain_games.engine import get_user_name
 from brain_games.scripts.brain_calc import main as calc_main
 from brain_games.scripts.brain_even import main as even_main
 from brain_games.scripts.brain_gcd import main as gcd_main
 from brain_games.scripts.brain_prime import main as prime_main
 from brain_games.scripts.brain_progression import main as progression_main
-from brain_games.engine import get_user_name
 
 GAMES = {
     1: ("Brain Even", even_main),
