@@ -35,7 +35,8 @@ def choose_game():
 
 
 def main():
-    choose_game()
+    # choose_game()
+    return
 
 
 if __name__ == "__main__":
