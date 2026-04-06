@@ -1,14 +1,14 @@
-import random
+import secrets
 
 TASK_DESCRIPTION = 'What number is missing in the progression?'
 
 
 def generate_progression_round():
-    start = random.randint(1, 10)
-    step = random.randint(1, 10)
-    length = random.randint(5, 10)
+    start = secrets.randbelow(10) + 1
+    step = secrets.randbelow(10) + 1
+    length = secrets.randbelow(6) + 5
     progression = [start + i * step for i in range(length)]
-    missing_index = random.randint(0, length - 1)
+    missing_index = secrets.randbelow(length)
     correct_answer = progression[missing_index]
     progression[missing_index] = '..'
     question = ' '.join(map(str, progression))

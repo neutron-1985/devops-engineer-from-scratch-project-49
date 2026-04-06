@@ -1,4 +1,4 @@
-import random
+import secrets
 
 TASK_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
@@ -8,7 +8,7 @@ def check_even(number):
 
 
 def generate_even_round():
-    number = random.randint(1, 100)
+    number = secrets.randbelow(100) + 1
     question = str(number)
     correct_answer = "yes" if check_even(number) else "no"
     return question, correct_answer

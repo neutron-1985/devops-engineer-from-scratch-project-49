@@ -1,4 +1,4 @@
-import random
+import secrets
 
 TASK_DESCRIPTION = (
     'Answer "yes" if given number is prime. '
@@ -16,7 +16,7 @@ def is_prime(n):
 
 
 def generate_prime_round():
-    number = random.randint(1, 100)
+    number = secrets.randbelow(100) + 1
     question = f"{number}"
     correct_answer = "yes" if is_prime(number) else "no"
     return question, correct_answer
