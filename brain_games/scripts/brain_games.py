@@ -36,6 +36,7 @@ def choose_game():
 
 def main():
     # choose_game()
+    print("Welcome to the Brain Games!")
     return
 
 
